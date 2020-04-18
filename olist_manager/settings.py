@@ -38,7 +38,10 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'olist_frontend',
-    'olist_backend'
+    'olist_backend',
+    'django_filters',
+    'bootstrapform',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
