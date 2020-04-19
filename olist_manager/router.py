@@ -1,7 +1,7 @@
-from olist_backend.viewsets import BookList
-from olist_backend.viewsets import AuthorList
+from olist_backend.viewsets import Book
+from olist_backend.viewsets import Author
 from rest_framework import routers
 
 router = routers.DefaultRouter()
-router.register('books',BookList)
-router.register('authors',AuthorList)
+router.register('books',Book)
+router.register('authors',Author)
