@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django_filters',
     'bootstrapform',
     'rest_framework',
-    'widget_tweaks'
+    'widget_tweaks',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
