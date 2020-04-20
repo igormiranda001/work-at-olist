@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% load widget_tweaks %}
+
+<!-- Author Delete -->
+{%block content %}
+
+<div class="container">
+  <div class="panel panel-default">
+    <div class="panel-heading">Delete Author</div>
+    <div class="panel-body">
+      <form method="post">
+        {% csrf_token %}
+        <div style="text-align:center;">
+          <div class="alert alert-danger">
+            Are you sure you want to delete the author "{{ object }}"?
+          </div>
+        </div>
+        <button class="btn btn-default btn-primary pull-right" type="submit">Delete</button>
+        <a class="btn btn-default btn-secondary pull-left" href="{% url 'authors' %}"><i class="fa fa-angle-left"></i> Back</a>
+      </form>
+    </div>
+  </div>
+</div>
+
+<!-- End Author Delete -->
+
+<script>
+  document.getElementById('authorlink').classList.add('active');
+  document.getElementById('booklink').classList.remove('active');
+  document.getElementById('homelink').classList.remove('active');
+</script>
+
+{% endblock %}
