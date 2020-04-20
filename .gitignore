@@ -6,3 +6,4 @@ __pycache__
 /olist_manager/migrations/*
 */__pycache__
 db.sqlite3
+/olist_frontend/views/__pycache__
