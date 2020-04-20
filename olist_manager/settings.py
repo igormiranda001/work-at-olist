@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'olist_frontend',
     'olist_backend',
+    'olist_manager',
     'django_filters',
     'bootstrapform',
     'rest_framework',
