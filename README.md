@@ -10,7 +10,7 @@ Clone Repository
 
 ```
   
-  git clone https://github.com/igormiranda001/work-at-olist.git
+git clone https://github.com/igormiranda001/work-at-olist.git
   
 ```
 
